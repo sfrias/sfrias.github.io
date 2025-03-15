@@ -1,2 +1,2 @@
 # sfrias.github.io
-My personal webpage on github.io
+La meva plana web personal a github.io
