@@ -24,7 +24,6 @@ audio {
 	display: flex;
 	width:150px;
   height: 30px;
-	align-items: left;
 	border-radius:10px;	
 }
 
