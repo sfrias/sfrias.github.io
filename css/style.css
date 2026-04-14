@@ -27,8 +27,8 @@ header .left {
 
 header .player{
 	display: flex;
-	width:50px;
-	align-items: center;
+	width:70px;
+	align-items: left;
 	border-radius:10px;
 }
 
