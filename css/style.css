@@ -1,7 +1,7 @@
 /* Reset básicos */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+	padding: 1px;
   background-color: #929292;
   color: white;
 }
@@ -25,28 +25,35 @@ header .left {
   align-items: center;
 }
 
+header .player{
+	display: flex;
+	width:50px;
+	align-items: center;
+	border-radius:10px;
+}
+
 header .right {
   display: flex;
   align-items: center;
 }
 
 button {
-  padding: 10px;
+  padding: 5px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 0.8em;
   display: flex;
   align-items: center;
 }
 
 /* Botones de la cabecera */
 header .left i {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 header .right i {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .name-btn {
@@ -60,7 +67,7 @@ header .right i {
 }
 
 .name-btn i {
-  margin-right: 2px;
+  margin-right: 1px;
 }
 
 .contact-btn {
@@ -74,7 +81,7 @@ header .right i {
 }
 
 .contact-btn i {
-  margin-right: 2px;
+  margin-right: 1px;
 }
 
 /* Botones principales */
@@ -85,7 +92,7 @@ header .right i {
 }
 
 .main-btn {
-  margin: 0 5px;
+  margin: 1px 1px;
   background-color: #419745;
   color: white;
   transition: background-color 0.5s ease;
@@ -96,7 +103,7 @@ header .right i {
 }
 
 .main-btn i {
-  margin-right: 2px;
+  margin-right: 1px;
 }
 
 /* Efecto de resaltado al pasar el ratón */

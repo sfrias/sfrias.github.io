@@ -17,15 +17,21 @@
 		<div class="left">
 					<!-- anterior onclick con location.href='https://es.linkedin.com/in/sfrias'-->
       <button class="name-btn" onclick="window.open('https://es.linkedin.com/in/sfrias','_blank')">
-        <i class="fas fa-network-wired"></i> Santiago Frias
+        <i class="fas fa-network-wired"></i> S.Frias
       </button>
     </div>
 
-    <figure>
-		<figurecaption><small>Music by Melvin Waller</small></figurecaption>
-		<audio src="music0.mp3" loading="lazy" autoplay loop controls></audio>
-    </figure>
-
+		<div class="player">
+			<audio class="player"
+				src="music0.mp3"
+				type="audio/mpeg"
+				loading="lazy"
+				autoplay
+				loop
+				controls>
+			</audio>
+		</div>
+	
     <div class="right">
       <button class="contact-btn" id="contact-btn"
         <i class="fa-solid fa-envelope"></i>
@@ -34,7 +40,7 @@
       <script src="scripts/ViewEmail.js"></script>
     </div>
   </header>
-    <!-- Sección de botones -->
+    <!-- Sección de botones --> 
   <div class="main-buttons">
     <button class="main-btn home">
       <i class="fas fa-home"></i> Home
