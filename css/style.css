@@ -1,8 +1,13 @@
 /* Reset básicos */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+html {
+    background: black;
+    height: 100%;
+    overflow: hidden;
 }
 
 /* Estilos generales */
@@ -15,7 +20,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-	padding: 1px;
+  padding: 1px;
   background-color: #929292;
   color: white;
 }
